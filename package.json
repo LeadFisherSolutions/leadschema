@@ -1,0 +1,51 @@
+{
+  "name": "leadschema",
+  "description": "Leadfisher contract definition schema language",
+  "version": "1.0.0",
+  "homepage": "https://leadfisher.ru",
+  "author": "Alexander Ivanov <sashapop101@gmail.com>",
+  "license": "MIT",
+  "packageManager": "npm@9.6.4",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "nodejs",
+    "zero-dependencies",
+    "prettier",
+    "eslint",
+    "ts",
+    "schema",
+    "leadfisher",
+    "javascript",
+    "typescript",
+    "contract"
+  ],
+  "files": [
+    "/src",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test && tsc",
+    "dev": "node index.js",
+    "prettier:fix": "prettier --write \"**/*.{js,ts,json,html,cjs,md,yaml}\"",
+    "eslint:fix": "eslint --fix \"**/*.{js,ts}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeadFisherSolutions/leadschema.git"
+  },
+  "engines": {
+    "node": ">= 20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "eslint": "^8.41.0",
+    "eslint-config-leadfisher": "^1.2.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
+  }
+}
